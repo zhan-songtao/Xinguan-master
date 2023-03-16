@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d224d6c"],{e29b:function(e,t,r){"use strict";r.r(t);var n=function(){var e=this,t=e.$createElement,r=e._self._c||t;return r("iframe",{staticStyle:{overflow:"hidden"},attrs:{src:"https://www:zykhome.club/api/druid/login.html",frameborder:"no",border:"0",marginwidth:"0",marginheight:"0",allowtransparency:"yes",height:"600px;",width:"100%"}})},i=[],a=r("2877"),l={},o=Object(a["a"])(l,n,i,!1,null,null,null);t["default"]=o.exports}}]);
+//# sourceMappingURL=chunk-2d224d6c.4eb6923a.js.map
