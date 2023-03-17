@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Xinguan-master2.iml" filepath="$PROJECT_DIR$/.idea/Xinguan-master2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xinguan-master/goods.iml" filepath="$PROJECT_DIR$/Xinguan-master/goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xinguan-master/xinguan-business/xinguan-business.iml" filepath="$PROJECT_DIR$/Xinguan-master/xinguan-business/xinguan-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xinguan-master/xinguan-common/xinguan-common.iml" filepath="$PROJECT_DIR$/Xinguan-master/xinguan-common/xinguan-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xinguan-master/xinguan-generator/xinguan-generator.iml" filepath="$PROJECT_DIR$/Xinguan-master/xinguan-generator/xinguan-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xinguan-master/xinguan-system/xinguan-system.iml" filepath="$PROJECT_DIR$/Xinguan-master/xinguan-system/xinguan-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xinguan-master/xinguan-web/xinguan-web.iml" filepath="$PROJECT_DIR$/Xinguan-master/xinguan-web/xinguan-web.iml" />
+    </modules>
+  </component>
+</project>
