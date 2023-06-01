@@ -196,7 +196,7 @@
                 <el-row :gutter="20">
                     <el-col :span="12">
                         <div class="grid-content bg-purple">
-                            <el-form-item label="自2020年1月1日起,是否在湖北省停留过 (保存转车路过)" prop="passby">
+                            <el-form-item label="自2023年1月1日起,是否在湖北省停留过 (保存转车路过)" prop="passby">
                                 <el-radio-group :disabled="reported" v-model="ruleForm.passby">
                                     <el-radio :label="1">是</el-radio>
                                     <el-radio :label="0">否</el-radio>
@@ -206,7 +206,7 @@
                     </el-col>
                     <el-col :span="12">
                         <div class="grid-content bg-purple">
-                            <el-form-item label="自2020年1月1日起,是否有接待过来自湖北的客户,亲戚或朋友)" prop="reception">
+                            <el-form-item label="自2023年1月1日起,是否有接待过来自湖北的客户,亲戚或朋友)" prop="reception">
                                 <el-radio-group :disabled="reported" v-model="ruleForm.reception">
                                     <el-radio :label="1">是</el-radio>
                                     <el-radio :label="0">否</el-radio>

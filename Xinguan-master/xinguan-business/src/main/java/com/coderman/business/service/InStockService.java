@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  * @Author zhangyukang
- * @Date 2020/3/19 09:54
+ * @Date 2023/3/19 09:54
  * @Version 1.0
  **/
 public interface InStockService {

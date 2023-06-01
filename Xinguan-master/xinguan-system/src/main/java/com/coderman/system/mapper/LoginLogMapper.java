@@ -10,7 +10,7 @@ import java.util.Map;
 
 /**
  * @Author zhangyukang
- * @Date 2020/3/20 19:09
+ * @Date 2023/3/20 19:09
  * @Version 1.0
  **/
 public interface LoginLogMapper extends Mapper<LoginLog> {

@@ -8,7 +8,7 @@ import com.coderman.common.vo.system.PageVO;
 
 /**
  * @Author zhangyukang
- * @Date 2020/5/7 10:20
+ * @Date 2023/5/7 10:20
  * @Version 1.0
  **/
 public interface HealthService {

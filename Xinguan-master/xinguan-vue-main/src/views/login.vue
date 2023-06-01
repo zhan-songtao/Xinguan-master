@@ -71,7 +71,7 @@
                 //表单用户登入数据
                 loading: false,
                 userLoginForm: {
-                    username: "蔡徐坤",
+                    username: "zhan",
                     password: "123456"
                 },
                 checked: true,

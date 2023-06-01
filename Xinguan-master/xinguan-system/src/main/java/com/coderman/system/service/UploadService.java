@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @Author zhangyukang
- * @Date 2020/8/19 14:57
+ * @Date 2023/8/19 14:57
  * @Version 1.0
  **/
 public interface UploadService {

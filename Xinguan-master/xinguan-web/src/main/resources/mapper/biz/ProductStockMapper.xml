@@ -19,13 +19,13 @@
                 and p.two_category_id =#{twoCategoryId}
             </when>
             <when test="oneCategoryId != null and oneCategoryId !=''">
-                and p.one_category_id =#{oneCategoryId}
+                and p.one_category_id =#{oneCategoryIdc}
             </when>
         </choose>
     </select>
     <!--所有库存信息-->
     <select id="findAllStocks"
-            resultType="com.coderman.common.vo.business.ProductStockVO">
+            resultType="com.coderman.common.vo.business.ProductStockVO">cd
         SELECT s.p_num,s.stock ,p.name,p.id,
         p.model,p.unit
         FROM biz_product_stock s

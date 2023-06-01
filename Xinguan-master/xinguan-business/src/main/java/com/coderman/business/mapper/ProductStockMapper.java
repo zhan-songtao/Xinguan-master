@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @Author zhangyukang
- * @Date 2020/3/21 19:38
+ * @Date 2023/3/21 19:38
  * @Version 1.0
  **/
 public interface ProductStockMapper extends Mapper<ProductStock> {

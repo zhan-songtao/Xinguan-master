@@ -1,6 +1,6 @@
 <p align="center"><img src="./document/images/logo.png" height="100" alt="logo"/></p>
 <h1 align="center"> xinguan &nbsp; 🚀 &nbsp; 新冠-物资管理系统  </h1>
-<h3 align="center">2020新冠疫情期间, 寂寞消遣之作~</h3>
+<h3 align="center">2023新冠疫情期间, 寂寞消遣之作~</h3>
 <h3 align="center"><a href="https://www.zykhome.club" target="_blank">https://www.zykhome.club</a></h3>
 
 

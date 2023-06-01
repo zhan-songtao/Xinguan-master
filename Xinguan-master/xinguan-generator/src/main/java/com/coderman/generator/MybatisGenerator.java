@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  * @Author zhangyukang
- * @Date 2020/7/6 11:13
+ * @Date 2023/7/6 11:13
  * @Version 1.0
  **/
 public class MybatisGenerator {

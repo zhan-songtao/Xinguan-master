@@ -110,6 +110,9 @@
 </template>
 
 <script>
+
+    import {addClass} from ""
+
     export default {
         data() {
             return {

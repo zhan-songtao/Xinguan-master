@@ -29,7 +29,7 @@ import java.util.UUID;
 
 /**
  * @Author zhangyukang
- * @Date 2020/3/19 09:56
+ * @Date 2023/3/19 09:56
  * @Version 1.0
  **/
 @Transactional
@@ -82,6 +82,8 @@ public class InStockServiceImpl implements InStockService {
         if(inStockVO.getInNum()!=null&&!"".equals(inStockVO.getInNum())){
             criteria.andLike("inNum","%"+inStockVO.getInNum()+"%");
         }
+
+
         if(inStockVO.getType()!=null){
             criteria.andEqualTo("type",inStockVO.getType());
         }
@@ -98,6 +100,7 @@ public class InStockServiceImpl implements InStockService {
         List<InStockVO> inStockVOS=inStockConverter.converterToVOList(inStocks);
         PageInfo<InStock> inStockPageInfo = new PageInfo<>(inStocks);
         return new PageVO<>(inStockPageInfo.getTotal(),inStockVOS);
+
     }
 
     /**

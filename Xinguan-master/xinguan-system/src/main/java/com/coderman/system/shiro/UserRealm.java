@@ -34,6 +34,7 @@ public class UserRealm extends AuthorizingRealm {
      */
     @Override
     public boolean supports(AuthenticationToken token) {
+
         return token instanceof JWTToken;
     }
 
@@ -45,6 +46,7 @@ public class UserRealm extends AuthorizingRealm {
 
         SimpleAuthorizationInfo authorizationInfo = new SimpleAuthorizationInfo();
         ActiveUser activeUser = (ActiveUser) SecurityUtils.getSubject().getPrincipal();
+        //获取用户信息
 
         if(activeUser.getUser().getType()==0){
             authorizationInfo.addStringPermission("*:*");
@@ -57,6 +59,7 @@ public class UserRealm extends AuthorizingRealm {
                     authorizationInfo.addRole(role.getRoleName());
                 }
             }
+
             //授权权限
             if (!CollectionUtils.isEmpty(permissions)) {
                 for (String  permission : permissions) {
@@ -78,6 +81,7 @@ public class UserRealm extends AuthorizingRealm {
         String token = (String) auth.getCredentials();
         // 解密获得username，用于和数据库进行对比
         String username = JWTUtils.getUsername(token);
+
 
         if (username == null) {
             throw new AuthenticationException(" token错误，请重新登入！");

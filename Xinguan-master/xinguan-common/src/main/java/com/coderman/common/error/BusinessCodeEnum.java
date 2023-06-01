@@ -8,7 +8,7 @@ import lombok.Getter;
  *
  * 如果想要代码更具维护性一点,可以定义不同种类的错误码,都实现 BaseCodeInterface
  * @Author zhangyukang
- * @Date 2020/3/1 14:51
+ * @Date 2023/3/1 14:51
  * @Version 1.0
  **/
 @Getter

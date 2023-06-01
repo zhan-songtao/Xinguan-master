@@ -8,7 +8,7 @@ import com.coderman.common.vo.system.PageVO;
 
 /**
  * @Author zhangyukang
- * @Date 2020/5/10 14:26
+ * @Date 2023/5/10 14:26
  * @Version 1.0
  **/
 public interface OutStockService {

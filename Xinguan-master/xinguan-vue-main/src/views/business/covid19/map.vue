@@ -190,7 +190,7 @@ export default {
   methods: {
     getData() {
       jsonp(
-        "https://interface.sina.cn/news/wap/fymap2020_data.d.json?_=1580892522427", //接口
+        "https://interface.sina.cn/news/wap/fymap2023_data.d.json?_=1580892522427", //接口
         {},
         (err, data) => {
           if (!err) {

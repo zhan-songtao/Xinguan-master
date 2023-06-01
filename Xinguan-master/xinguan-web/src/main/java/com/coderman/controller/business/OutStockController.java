@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.*;
 /**
  * 出库单
  * @Author zhangyukang
- * @Date 2020/5/10 14:23
+ * @Date 2023/5/10 14:23
  * @Version 1.0
  **/
 @Api(tags = "业务模块-物资出库相关接口")

@@ -3,7 +3,7 @@ package com.coderman.common.enums.system;
 /**
  * 用户类型
  * @Author zhangyukang
- * @Date 2020/5/29 12:25
+ * @Date 2023/5/29 12:25
  * @Version 1.0
  **/
 public enum UserTypeEnum {

@@ -6,7 +6,7 @@ import org.springframework.beans.BeanUtils;
 
 /**
  * @Author zhangyukang
- * @Date 2020/3/7 19:56
+ * @Date 2023/3/7 19:56
  * @Version 1.0
  **/
 public class DepartmentConverter {

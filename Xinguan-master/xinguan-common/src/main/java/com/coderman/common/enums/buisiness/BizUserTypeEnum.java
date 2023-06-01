@@ -3,7 +3,7 @@ package com.coderman.common.enums.buisiness;
 /**
  * 业务用户类型
  * @Author zhangyukang
- * @Date 2020/3/15 18:37
+ * @Date 2023/3/15 18:37
  * @Version 1.0
  **/
 public enum BizUserTypeEnum {

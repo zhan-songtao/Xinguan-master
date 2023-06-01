@@ -4,7 +4,7 @@ import lombok.Data;
 
 /** 商品库存
  * @Author zhangyukang
- * @Date 2020/4/16 09:27
+ * @Date 2023/4/16 09:27
  * @Version 1.0
  **/
 @Data

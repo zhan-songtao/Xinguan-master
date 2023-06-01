@@ -3,7 +3,7 @@ package com.coderman.common.enums.system;
 /**
  * 用户状态
  * @Author zhangyukang
- * @Date 2020/5/29 12:29
+ * @Date 2023/5/29 12:29
  * @Version 1.0
  **/
 public enum  UserStatusEnum {

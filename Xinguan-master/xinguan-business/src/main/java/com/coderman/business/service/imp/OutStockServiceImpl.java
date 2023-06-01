@@ -29,7 +29,7 @@ import java.util.UUID;
 
 /**
  * @Author zhangyukang
- * @Date 2020/5/10 14:26
+ * @Date 2023/5/10 14:26
  * @Version 1.0
  **/
 @Service
@@ -64,6 +64,8 @@ public class OutStockServiceImpl implements OutStockService {
     public PageVO<OutStockVO> findOutStockList(Integer pageNum, Integer pageSize, OutStockVO outStockVO) {
         PageHelper.startPage(pageNum,pageSize);
         Example o = new Example(OutStock.class);
+
+        //Example是通用Mapper中用于自定义复杂查询的类
         Example.Criteria criteria = o.createCriteria();
         o.setOrderByClause("create_time desc");
         if(outStockVO.getOutNum()!=null&&!"".equals(outStockVO.getOutNum())){

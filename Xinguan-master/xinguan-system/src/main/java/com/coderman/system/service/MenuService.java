@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @Author zhangyukang
- * @Date 2020/3/10 11:55
+ * @Date 2023/3/10 11:55
  * @Version 1.0
  **/
 public interface MenuService {

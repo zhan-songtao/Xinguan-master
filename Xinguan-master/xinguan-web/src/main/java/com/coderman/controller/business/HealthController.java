@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * @Author zhangyukang
- * @Date 2020/5/7 10:14
+ * @Date 2023/5/7 10:14
  * @Version 1.0
  **/
 @Api(tags = "业务模块-健康上报相关接口")

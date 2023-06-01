@@ -4,7 +4,7 @@ import org.apache.shiro.crypto.hash.SimpleHash;
 
 /**
  * @Author zhangyukang
- * @Date 2020/12/15 14:54
+ * @Date 2023/12/15 14:54
  * @Version 1.0
  **/
 public class MD5Utils {

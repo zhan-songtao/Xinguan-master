@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * 系主任
  * @Author zhangyukang
- * @Date 2020/3/15 18:40
+ * @Date 2023/3/15 18:40
  * @Version 1.0
  **/
 @Data

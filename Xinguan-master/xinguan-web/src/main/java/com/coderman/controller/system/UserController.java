@@ -29,7 +29,7 @@ import java.util.Map;
 
 /**
  * @Author zhangyukang
- * @Date 2020/3/7 16:24
+ * @Date 2023/3/7 16:24
  * @Version 1.0
  **/
 
@@ -61,7 +61,6 @@ public class UserController {
         loginLogService.add(request);
         return ResponseBean.success(token);
     }
-
 
 
     /**

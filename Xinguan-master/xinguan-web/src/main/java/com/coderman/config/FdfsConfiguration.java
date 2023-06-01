@@ -6,7 +6,7 @@ import org.springframework.jmx.support.RegistrationPolicy;
 
 /**
  * @Author zhangyukang
- * @Date 2020/8/9 11:49
+ * @Date 2023/8/9 11:49
  * @Version 1.0
  **/
 @Configuration
